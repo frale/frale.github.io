@@ -54,11 +54,12 @@ h1, h2, h3, h4{
 	padding:45px 0;
 }
 .favorites img{
-	width: 200px;
+	width: 180px;
+	height:180px;
 	border-radius: 50%;
 	border:1px solid #555555;
 	padding:5px;
-	margin:45px 15px;
+	margin:45px 30px;
 }
 .favorites, .contacto{
 	text-align: center;
@@ -70,6 +71,8 @@ h1, h2, h3, h4{
 	margin-bottom:60px;
 }
 .contacto img{
-	padding:30px;
+	border-radius: 50%;
 	border:1px solid #555555;
+	padding:5px;
+	margin:30px;
 }

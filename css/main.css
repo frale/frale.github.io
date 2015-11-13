@@ -44,9 +44,13 @@ h1, h2, h3, h4{
 .about-me .biografia img{
 	float:left;
 	width: 200px;
-	margin-right:15px;
+	margin-right:25px;
 	border:1px solid #555555;
 	padding:5px;
+}
+.about-me .container p{
+	margin:0 100px;
+	text-align: justify;
 }
 .about-me, .favorites{
 	background:url(../images/tile1.png);

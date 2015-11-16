@@ -11,13 +11,17 @@ h1, h2, h3, h4{
 }
 .list-nav{
 	text-align: center;
+	position: fixed;
+	padding-left: 0;
+	margin-top: 200px;
 }
-.list-nav li{
+/*.list-nav li{
 	display: inline-block;
-}
+}*/
 .list-nav a{
+	background: #333333;
 	display: block;
-	padding:15px 20px;
+	padding:20px 30px;
 	color:#aaaaaa;
 	font-family: 'Oswald', Arial, sans-serif;
 	text-transform: uppercase;
@@ -35,15 +39,14 @@ h1, h2, h3, h4{
 	background-size:cover;
 	color:#fff;
 	text-align: center;
-	padding:150px 0;
-	margin:0 100px 30px 100px;
+	padding:237px 0;
 }
 .header-content h1{
 	color:#fff;
 }
 .about-me .biografia img{
 	float:left;
-	width: 200px;
+	width: 180px;
 	margin-right:25px;
 	border:1px solid #555555;
 	padding:5px;
@@ -54,17 +57,19 @@ h1, h2, h3, h4{
 }
 .about-me, .favorites{
 	background:url(../images/tile1.png);
-	margin:10px 100px;
+	border:4px solid #cccccc;
+	margin:20px 100px;
 	padding:45px 0;
 }
 .favorites img{
 	width: 180px;
 	height:180px;
-	border-radius: 50%;
-	border:1px solid #555555;
-	padding:5px;
+	border-radius: 10%;
+	border:1px solid #cccccc;
+	padding:4px;
 	margin:45px 30px;
 }
+
 .favorites, .contacto{
 	text-align: center;
 	padding:45px 0;
